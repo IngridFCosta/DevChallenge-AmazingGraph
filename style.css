@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color:  #766F68;
+}
+header{
+    margin-top: 20px;
+}
+label[for="btnMenu"]{
+    padding:5px;
+    background-color:white;
+    color:black;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+}
+#btnMenu{
+    display: none;
+    float: right;
+}
+label[for="btnMenu"]{
+    display: none;
+    float: right;
+
+}
+.logo{
+    display: inline;
+}
+
+.logo a{
+    font-weight: bold;
+    font-size: 30px;
+    color: #D2872C;
+    text-decoration: none;
+    padding: 5px;
+}
+.menu{
+    float:right;
+}
+.menu ul li{
+    display: block;
+    list-style: none;  
+    text-align: right;
+    padding-right: 10px;
+    float: right;
+}
+.menu ul li a{
+    color:  #766F68;
+    font-size: 20px;
+    text-decoration: none;
+}
+.container{
+    max-width: 100%;
+    margin-top: 60px;
+}
+
+img{
+    margin-right:100px;
+    width:60%;
+    float:right;
+}
+.titulo{
+    z-index: 1;
+}
+.titlePrincipal{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 55px;
+}
+.titleSecund{
+    margin-top: 40px;
+    margin-left: 55px;
+    font-weight: lighter;
+
+}
+
+.start{
+    background-color: #D2872C;
+    color: white;
+    margin-top: 50px;
+    font-size:20px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    margin-left: 55px;
+    
+}
